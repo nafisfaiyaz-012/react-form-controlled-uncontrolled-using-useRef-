@@ -1,0 +1,21 @@
+import "./App.css";
+import ControlledForm from "./Components/ControlledForm/ControlledForm";
+import FormAction from "./Components/FormAction/FormAction";
+import HookForm from "./Components/HookForm/HookForm";
+import SimpleForm from "./Components/SimpleForm/SimpleForm";
+import UncontrolledForm from "./Components/UncontrolledForm/UncontrolledForm";
+
+function App() {
+  return (
+    <>
+      <h1>Explore React Form</h1>
+      {/* <SimpleForm></SimpleForm> */}
+      {/* <FormAction></FormAction> */}
+      {/* <ControlledForm></ControlledForm> */}
+      {/* <HookForm></HookForm> */}
+      <UncontrolledForm></UncontrolledForm>
+    </>
+  );
+}
+
+export default App;
